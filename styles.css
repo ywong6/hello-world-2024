@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: linear-gradient(#ff0000, #800080, #0000ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: fit-content;
+}
+.welcome-banner {
+  border: rgb(197, 197, 197) solid 1px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  padding: 2rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-banner h1 {
+  font-size: 4rem;
+  border-bottom: #fff solid 1px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.welcome-banner p {
+}
